@@ -28,14 +28,7 @@ void delay_ms(unsigned int x)  // 延时函数
 
 int main(void)
 {
-  P0=0xFE;delay_ms(500);
-  P0=0xFD;delay_ms(500);
-  P0=0xFB;delay_ms(500); 
-  P0=0xF7;delay_ms(500);  
-  P0=0xEF;delay_ms(500);
-  P0=0xDF;delay_ms(500);
-  P0=0xBF;delay_ms(500);
-  P0=0x7F;delay_ms(500);
+  
 
     return 0;
 }
